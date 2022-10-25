@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Parcel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="stylesheet" href="scss/styles.scss">
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="container" id="main-hero-container">
+        <div class="row">
+          <div class="col-6">
+            <h1 class="header-font-1 mt-4">Evan champ <br /><span class="header-font-2">redd</span></h1>
+            <div class="sample-vital">
+              <table class="simple-vital-table mb-4">
+                <tr>
+                  <td>Height: </td><td class="seconday-font-color ps-2">5' 10”</td>
+                </tr>
+                <tr>
+                  <td>Weight:</td><td class="seconday-font-color ps-2">197 LBS</td>
+                </tr>
+                <tr>
+                  <td>Position:</td><td class="seconday-font-color ps-2">ss/olb</td>
+                </tr>
+                <tr>
+                  <td>Class:</td><td class="seconday-font-color ps-2">2026 - FR.</td>
+                </tr>
+                <tr>
+                  <td>School:</td><td class="seconday-font-color ps-2">Servite HS</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="col-6 position-relative">
+            <img src="./assets/img/hero-img.png" class="hero-img" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vitals" class="section section-odd pb-5">
+      <h2 class="section-title">Player Vitals</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="section-sub-title black-font">All Measurements verified <span class="seconday-font-color">10.23.2022</span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="stat-card">
+              <div class="stat-card-title">Bench Press</div>
+              <div class="stat-card-value">345</div>
+              <div class="stat-card-title-desc">LBS</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="stat-card">
+              <div class="stat-card-title">Squat</div>
+              <div class="stat-card-value">405</div>
+              <div class="stat-card-title-desc">LBS</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="stat-card">
+              <div class="stat-card-title">Deadlift</div>
+              <div class="stat-card-value">455</div>
+              <div class="stat-card-title-desc">LBS</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="stat-card">
+              <div class="stat-card-title">Height</div>
+              <div class="stat-card-value">70"</div>
+              <div class="stat-card-title-desc">5ft 10in</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="stat-card">
+              <div class="stat-card-title">Weight</div>
+              <div class="stat-card-value">197</div>
+              <div class="stat-card-title-desc">LBS</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="stat-card">
+              <div class="stat-card-title">GPA</div>
+              <div class="stat-card-value">3.67</div>
+              <div class="stat-card-title-desc">CUMUL.</div>
+            </div>
+          </div>                                                  
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="section section-even pt-0 pb-5">
+      <h2 class="section-title">22-2023 season media</h2>
+      <div class="container">
+        <div class="row">
+          <!-- media card -->
+          <div class="col-6">
+            <a href="#" class="highlight-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <div class="media-card">
+                <div class="stat-card-title">Week 1 Highlights</div>
+                <div class="media-placeholder">
+                  <img src="./assets/img/media-card-ph-1.jpg" class="w-100 ph-img" />
+                </div>
+                <div class="media-desc">
+                  <div class="media-desc-1">10.21.22 @ Helix HS</div>
+                  <div class="media-desc-1">6 tkls | 3 sks</div>
+                  <div class="media-desc-2">jersey: #8 // Pos: OLB</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- media card end -->
+          <!-- media card -->
+          <div class="col-6">
+            <div class="media-card">
+              <div class="stat-card-title">Week 1 Highlights</div>
+              <div class="media-placeholder">
+                <img src="./assets/img/media-card-ph-1.jpg" class="w-100 ph-img" />
+              </div>
+              <div class="media-desc">
+                <div class="media-desc-1">10.21.22 @ Helix HS</div>
+                <div class="media-desc-1">6 tkls | 3 sks</div>
+                <div class="media-desc-2">jersey: #8 // Pos: OLB</div>
+              </div>
+            </div>
+          </div>
+          <!-- media card end -->
+          <!-- media card -->
+          <div class="col-6">
+            <div class="media-card">
+              <div class="stat-card-title">Week 1 Highlights</div>
+              <div class="media-placeholder">
+                <img src="./assets/img/media-card-ph-1.jpg" class="w-100 ph-img" />
+              </div>
+              <div class="media-desc">
+                <div class="media-desc-1">10.21.22 @ Helix HS</div>
+                <div class="media-desc-1">6 tkls | 3 sks</div>
+                <div class="media-desc-2">jersey: #8 // Pos: OLB</div>
+              </div>
+            </div>
+          </div>
+          <!-- media card end -->
+          <!-- media card -->
+          <div class="col-6">
+            <div class="media-card">
+              <div class="stat-card-title">Week 1 Highlights</div>
+              <div class="media-placeholder">
+                <img src="./assets/img/media-card-ph-1.jpg" class="w-100 ph-img" />
+              </div>
+              <div class="media-desc">
+                <div class="media-desc-1">10.21.22 @ Helix HS</div>
+                <div class="media-desc-1">6 tkls | 3 sks</div>
+                <div class="media-desc-2">jersey: #8 // Pos: OLB</div>
+              </div>
+            </div>
+          </div>
+          <!-- media card end -->
+        </div>
+      </div>
+      
+      <!-- modal container -->
+      <div class="contaienr">
+        <div class="row">
+          <div class="col-12">
+            <!-- dynamic modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <iframe class="hl-video-if" src="https://www.youtube.com/embed/HFnNhx3eod0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="analysis" class="section section-odd pt-0 pb-5">
+      <h2 class="section-title mb-5">Player Analysis</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="player-analysis-img-container">
+              <img src="./assets/img/player-analysis-img.jpg" class="player-analysis-img" alt="" />
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="analysis-card">
+              <h3 class="analysis-card-title">Vitals</h3>
+              <table class="analysis-table mb-4">
+                <tr><td><strong>First Name:</strong></td><td>Evan Champ</td></tr>
+                <tr><td><strong>Last Name:</strong></td><td>Redd</td></tr>
+                <tr><td><strong>Hometown:</strong></td><td>Lake Elsinore, CA</td></tr>
+                <tr><td><strong>High School:</strong></td><td>Servite High School</td></tr>
+                <tr><td><strong>Class:</strong></td><td>2026 - Freshman</td></tr>
+              </table>
+
+              <table class="analysis-table mb-4">
+                <tr><td><strong>Ht:</strong></td> <td>5' 10"</td></tr>
+                <tr><td><strong>Wt:</strong></td> <td>197Lb</td></tr>
+                <tr><td><strong>Bench 225:</strong></td> <td>17 Reps</td></tr>
+                <tr><td><strong>Squat  225:</strong></td> <td>25 Reps</td></tr>
+                <tr><td><strong>GPA:</strong></td> <td>3.67</td></tr>
+                <tr><td><strong>Position:</strong></td> <td>OLB / SS</td></tr>
+              </table>
+            </div>
+            <div class="player-bio">
+              <h3 class="analysis-card-title">Scouting Report - 22/23 Season</h3>
+              <p class="sr-p">Busy and reliable as a tackler, with good speed and athleticism. Very intense and aware. Consistent and capable of regularly making both routine and big plays. Has good potential on special teams as well. Must keep working on his technique at getting away from big blockers. Can be a little over-focused on picking up runners and needs to show more consistency in blitz packages.</p>
+              <p class="sr-p"><strong>Long Range Potential:</strong> Quality exterior  linebacker or wallk down saftey.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-even pt-0 pb-3">
+      <h2 class="section-title mb-5">Contact Information</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a href="#" class="contact-link btn btn-lg mb-3"><span class="contact-icon"><i class="fa-brands fa-square-twitter"></i></span> Go to my Twitter <span class="go-icon"><i class="fa-solid fa-chevron-right"></i></span></a>
+            <a href="#" class="contact-link btn btn-lg mb-3"><span class="contact-icon"><i class="fa-brands fa-square-instagram"></i></span> Go to my Twitter <span class="go-icon"><i class="fa-solid fa-chevron-right"></i></span></a>
+            <a href="#" class="contact-link btn btn-lg mb-3"><span class="contact-icon"><i class="fa-brands fa-youtube"></i></span> Go to my Twitter <span class="go-icon"><i class="fa-solid fa-chevron-right"></i></span></a>
+            <a href="#" class="contact-link btn btn-lg mb-5"><span class="contact-icon"><i class="fa-solid fa-envelope"></i></span> Send me an email <span class="go-icon"><i class="fa-solid fa-chevron-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-odd pt-0 pb-3">
+      <h2 class="section-title mb-3">Share my Profile</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="section-sub-title black-font mb-3">All Measurements verified <span class="seconday-font-color">10.23.2022</span></h3>
+
+            <div class="qr-code-container">
+              <img src="./assets/img/email-qr-code.png" alt="" class="qrcod">
+              <h4 class="email-message">Scan to Share</h4>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

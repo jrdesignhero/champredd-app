@@ -1,0 +1,221 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header-font-1{
+    font-family: 'Montserrat', sans-serif;
+}
+.header-font-2{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bg-dark {
+    background: #000 !important;
+}
+#hero {
+    margin-top: 55px;
+    background: url('../assets/img/repeat-img.jpg') #000000 repeat-x;
+}
+#main-hero-container {
+    background: url('../assets/img/hero-bg.jpg') no-repeat top center
+}
+img.hero-img {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+.simple-vital-table td {
+    vertical-align: top;
+    font-size: 14px;
+}
+h1.header-font-1 {
+    color: #e1bc76;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+h1 span.header-font-2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 58px;
+    letter-spacing: 2px;
+    line-height: 58px;
+}
+.simple-vital-table {
+    color: #fff;
+    /* font-family: Source Sans Pro, sans-serif; */
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.seconday-font-color {
+    color: #e1bc76
+}
+.section-title {
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding: 6px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+.section-sub-title {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.stat-card {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 9.7px 0.3px rgb(0 0 0 / 31%);
+    margin: 10px 0px;
+}
+.stat-card-title {
+    background: #000;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+.stat-card-value {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.stat-card-title-desc {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 17px;
+}
+.section-odd {
+    background: #fff;
+}
+.section-even {
+    background: #0f0f0f
+}
+.media-card {
+    background: #000;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.media-desc {
+    background: #000;
+    padding: 5px 10px;
+    color: #fff;
+}
+.media-desc-1 {
+    font-size: 15px;
+}
+.media-desc-2 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.ph-img {
+    opacity: 0.8;
+}
+.analysis-card-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+table.analysis-table {
+    caption-side: bottom;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+table.analysis-table td {
+    padding: 2px 6px 2px 0px;
+    min-width: 100px;
+    vertical-align: top;
+}
+p.sr-p {
+    font-size: 14px;
+}
+
+.player-analysis-img-container {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    height: 639px;
+}
+img.player-analysis-img {
+    display: block;
+    position: absolute;
+    width: 480px;
+    z-index: 1000;
+    left: -170px;
+}
+a.contact-link.btn {
+    background: #fff;
+    display: block;
+    position: relative;
+}
+span.contact-icon {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+}
+span.go-icon {
+    position: absolute;
+    right: 15px;
+    display: inline-block;
+}
+.contact-icon i {
+    font-size: 32px;
+}
+.go-icon i {
+    font-size: 31px;
+}
+.qr-code-container {
+    width: 280px;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+    background: black;
+    border-radius: 5px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+.email-message {
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+a.navbar-brand {
+    color: #fff;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+    border-color: #1a1a1a;
+    border-radius: 0;
+}
+.hl-video-if {
+    width: 100%;
+    min-height: 300px;
+}
+a.highlight-modal {
+    text-decoration: none;
+    border: none;
+    display: block;
+}
