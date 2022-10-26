@@ -230,3 +230,44 @@ img.logo-img {
     display: block;
     width: 64px;
 }
+
+@media (min-width: 440px) {
+    img.hero-img {
+        width: 210px;
+        margin-top: 30px;
+        position: relative;
+        top: 0;
+    }
+}
+@media (min-width: 768px) {
+    img.hero-img {
+        width: 260px;
+    }
+    img.player-analysis-img {
+        left: -70px;
+    }
+    h1.header-font-1, .header-font-1.h1 {
+        font-size: 35px;
+    }
+    h1 span.header-font-2, .h1 span.header-font-2 {
+        font-size: 80px;
+    }
+    .simple-vital-table td {
+        font-size: 16px;
+    }
+    .section-title {
+        font-size: 22px;
+    }
+    .section-sub-title {
+        font-size: 17px;
+    }
+    table.analysis-table {
+        font-size: 15px;
+    }
+    .analysis-card-title {
+        font-size: 17px;
+    }
+    p.sr-p {
+        font-size: 16px;
+    }
+}
