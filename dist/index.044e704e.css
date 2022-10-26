@@ -12325,4 +12325,14 @@ img.logo-img {
   }
 }
 
+@media (max-width: 360px) {
+  h1 span.header-font-2, .h1 span.header-font-2 {
+    font-size: 55px;
+  }
+
+  h1.header-font-1, .header-font-1.h1 {
+    font-size: 18px;
+  }
+}
+
 /*# sourceMappingURL=index.044e704e.css.map */
