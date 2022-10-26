@@ -12269,4 +12269,9 @@ a.nav-link, a.nav-link.active {
   color: #fff !important;
 }
 
+img.logo-img {
+  width: 64px;
+  display: block;
+}
+
 /*# sourceMappingURL=index.044e704e.css.map */
