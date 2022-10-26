@@ -219,3 +219,10 @@ a.highlight-modal {
     border: none;
     display: block;
 }
+a.nav-link, a.nav-link.active {
+    color: #fff !important;
+    text-align: center;
+    border: 1px solid #1A1A1A;
+    margin-top: 15px;
+    background: #0f0f0f;
+}

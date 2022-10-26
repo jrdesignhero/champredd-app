@@ -12261,4 +12261,12 @@ a.highlight-modal {
   display: block;
 }
 
+a.nav-link, a.nav-link.active {
+  text-align: center;
+  background: #0f0f0f;
+  border: 1px solid #1a1a1a;
+  margin-top: 15px;
+  color: #fff !important;
+}
+
 /*# sourceMappingURL=index.044e704e.css.map */
